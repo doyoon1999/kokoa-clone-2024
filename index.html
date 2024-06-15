@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Grouper Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column status-bar__left">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column status-bar__center">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column status-bar__right">
+        <i class="fa-solid fa-rotate-right"></i>
+        <span>80%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header"></header>
+      <h1 class="welcome-header__header">Welcome to GrouperTalk</h1>
+      <p class="welcome-header__description">
+        If you have a Grouper Account,<br />log in with your email or phone
+        number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+    </form>
+    <form action="signup.html" method="get" id="signup-form">
+      <input type="submit" value="Sign Up"/>
+      <a href="#">Find Grouper Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/45700226c7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

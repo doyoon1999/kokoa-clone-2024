@@ -1,0 +1,75 @@
+.icon-box__column__text--more {
+  font-size: 14px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-bottom: auto;
+  line-height: 20px;
+}
+.icon-box--more {
+  opacity: 0.75;
+}
+.icon-box__column img {
+  height: 55px;
+  width: auto;
+  border-radius: 10%;
+}
+.icon-box__column__suggestions {
+  margin-top: -17.5px;
+}
+.icon-box__column__suggestions span {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 17px;
+}
+
+/* profile-bar--more */
+.profile-bar--more__img img {
+  border-radius: 37%;
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  width: 72px;
+  height: auto;
+}
+.profile-bar--more__text {
+  font-size: 22px;
+  font-weight: 650;
+  margin-left: 16.5px;
+}
+.profile-bar--more__text__number {
+  display: flex;
+  align-items: center;
+  font-size: 16.5px;
+  font-weight: 550;
+  margin-top: 11px;
+  gap: 6px;
+}
+.profile-bar--more__text__number span {
+  opacity: 0.35;
+}
+.profile-bar--more__text__number i {
+  color: tomato;
+  opacity: 0.9;
+}
+.profile-bar--more {
+  display: flex;
+  align-items: center;
+  padding: 9.5px 0;
+  margin-bottom: -8px;
+}
+.profile-bar--more .profile-bar--more__rocket {
+  display: flex;
+  margin-left: auto;
+}
+.profile-bar--more__rocket .fa-rocket {
+  font-size: 33px;
+}
+
+/* channel-bar__suggestions */
+.channel-bar__suggestions {
+  margin-top: 19px;
+}
+.channel-bar__suggestions span {
+  margin-top: 9px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 1);
+}

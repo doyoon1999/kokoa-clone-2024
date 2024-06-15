@@ -1,0 +1,47 @@
+.user-components {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.user-components__column {
+  display: flex;
+}
+.user-components__column__badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: auto;
+}
+.user-components__img img {
+  border-radius: 37%;
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  width: 65px;
+  height: auto;
+}
+.user-components__text {
+  font-size: 22px;
+  font-weight: 650;
+  margin-left: 16.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* chats list */
+.chat-content {
+  font-size: 17px;
+  opacity: 0.35;
+  margin-top: 7px;
+}
+.last-chat-time {
+  font-size: 14.5px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.chats-notification-icon {
+  margin-top: 9px;
+}

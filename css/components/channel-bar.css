@@ -1,0 +1,43 @@
+.channel-bar {
+  display: flex;
+  padding: 18px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.channel-bar span {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.45);
+}
+.channel-bar i {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.3);
+}
+.channel-bar__recommended-friends {
+  display: block;
+}
+.channel-bar__recommended-friends h2 {
+  margin: 104px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.9);
+}
+.channel-bar__open-chat__column {
+  display: flex;
+  white-space: nowrap;
+}
+.channel-bar__open-chat {
+  display: flex;
+  justify-content: space-between;
+}
+.channel-bar__open-chat__column--with-icon {
+  opacity: 0.67;
+  gap: 5px;
+}

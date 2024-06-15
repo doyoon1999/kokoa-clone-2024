@@ -1,0 +1,27 @@
+.nav-bar {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin: 0 -24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nav-bar__list {
+  display: flex;
+  font-size: 29px;
+  background-color: #f9f9fa;
+  padding: 14px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar__item i {
+  color: #2f363e;
+}
+.nav-bar__item:nth-child(3) {
+  font-size: 28px;
+}
+.nav-bar__item:last-child {
+  font-size: 36px;
+}
+.nav-bar__link {
+  position: relative;
+}

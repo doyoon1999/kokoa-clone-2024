@@ -1,0 +1,18 @@
+.nav-notification-icon {
+  position: absolute;
+  margin-bottom: 30px;
+  top: -1px;
+  right: -8px;
+  animation: Notification-Icon-Animation 1.7s ease-in-out infinite;
+}
+@keyframes Notification-Icon-Animation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}

@@ -1,0 +1,26 @@
+.settings-item {
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14.5px 0;
+}
+.settings-item__column {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 650;
+  width: 33%;
+}
+.settings-item__column span {
+}
+.settings-item__column__left {
+  justify-content: left;
+  font-size: 30px;
+}
+.settings-item__column__right {
+  justify-content: right;
+}
+.settings-item__column__left a {
+  color: black;
+}

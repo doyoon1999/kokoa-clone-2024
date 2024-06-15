@@ -1,0 +1,11 @@
+.settings-item__column__right .fa-bars {
+  font-size: 28.5px;
+}
+.settings-item__column__right {
+  gap: 25px;
+  align-items: center;
+}
+.chat-room-name__column span {
+  font-size: 25px;
+  text-wrap: nowrap;
+}

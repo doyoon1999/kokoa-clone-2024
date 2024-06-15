@@ -1,0 +1,12 @@
+.notification-icon {
+  display: flex;
+  background-color: #ff612a;
+  justify-content: center;
+  align-items: center;
+  font-size: 15.5px;
+  font-weight: 500;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
