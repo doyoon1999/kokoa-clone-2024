@@ -6,7 +6,7 @@
     <title>Grouper Talk- chat</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="chat-body">
     <div class="status-bar">
       <div class="status-bar__column status-bar__left">
         <span>No Service</span>
@@ -26,7 +26,7 @@
       <div
         class="settings-item__column settings-item__column__left chat-room-name__column"
       >
-        <a href="javascript:history.back()">
+        <a href="chats.html">
           <i class="fa-solid fa-angle-left"></i>
         </a>
       </div>
@@ -40,31 +40,68 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
-    <nav class="nav-bar">
-      <ul class="nav-bar__list">
-        <li class="nav-bar__item">
-          <a href="friends.html">
-            <i class="fa-regular fa-user"> </i>
-          </a>
-        </li>
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="chats.html">
-            <i class="fa-regular fa-comment"></i>
-            <span class="notification-icon nav-notification-icon">1</span>
-          </a>
-        </li>
-        <li class="nav-bar__item">
-          <a href="find.html">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </a>
-        </li>
-        <li class="nav-bar__item">
-          <a href="more.html">
-            <i class="fa-solid fa-ellipsis"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div class="chat-date-bar">
+      <span>Monday, June 17, 2024</span>
+    </div>
+    <div class="chat-message">
+      <div class="chat-message__profile-pic">
+        <img src="img/찰리브라운.jpg" alt="charlie brown" />
+      </div>
+      <div class="chat-message__content">
+        <div class="chat-message__content__header">
+          <div class="chat-message__username">Charlie Brown</div>
+        </div>
+        <div class="chat-message__content__body">
+          <div class="chat-message__text">see u next time!</div>
+          <div class="chat-message__time">21:27</div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-message chat-message__reverse">
+      <div class="chat-message__content">
+        <div class="chat-message__content__body">
+          <div class="chat-message__text chat-message__text__reverse">bye!</div>
+          <div class="chat-message__time chat-message__time__reverse">
+            21:27
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-date-bar">
+      <span>Tuesday, June 18, 2024</span>
+    </div>
+    <div class="chat-message">
+      <div class="chat-message__profile-pic">
+        <img src="img/찰리브라운.jpg" alt="charlie brown" />
+      </div>
+      <div class="chat-message__content">
+        <div class="chat-message__content__header">
+          <div class="chat-message__username">Charlie Brown</div>
+        </div>
+        <div class="chat-message__content__body">
+          <div class="chat-message__text">hey Snoopy! what's up?</div>
+          <div class="chat-message__time">21:27</div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <div class="chat-input__column">
+        <div class="chat-input__column__more-options-button">
+          <button>+</button>
+        </div>
+      </div>
+      <div class="chat-input__column chat-input__column__input-bar">
+        <input type="text" placeholder="Type a message..." />
+        <div class="chat-input__column__column">
+          <button class="chat-input__column__column__imoji-button">
+            <i class="fa-regular fa-face-smile"></i>
+          </button>
+          <button class="chat-input__column__column__send-button">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/45700226c7.js"
       crossorigin="anonymous"

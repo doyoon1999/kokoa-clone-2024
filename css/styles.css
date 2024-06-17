@@ -15,6 +15,7 @@
 @import "components/icon-box.css";
 @import "components/open-chat-list.css";
 @import "components/settings-chat-item.css";
+@import "components/chat-message.css";
 
 /* screens */
 @import "screens/index.css";
