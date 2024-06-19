@@ -12,12 +12,34 @@
 .open-chat__column:nth-child(2) {
   margin-top: -10px;
 }
+.open-chat__column__img {
+  position: relative;
+}
 .open-chat__column__img img {
   height: 106px;
   width: 106px;
   border-radius: 6%;
-  display: flex;
   justify-content: flex-end;
+}
+.open-chat__column__img__like {
+  position: absolute;
+  right: 6px;
+  bottom: 8px;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px 10px;
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+  will-change: transform;
+}
+.open-chat__column__img__like:hover {
+  transform: scale(1.1);
+  color: tomato;
+  cursor: pointer;
+}
+.open-chat__column__img__like span {
+  margin-left: 2px;
 }
 .open-chat__column__text {
   line-height: 27.5px;

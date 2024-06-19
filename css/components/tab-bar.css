@@ -32,3 +32,14 @@
   text-decoration: none;
   font-size: 25px;
 }
+.tab-bar__icon .fa-gear:hover {
+  animation: gear-spin 1.3s linear infinite;
+}
+@keyframes gear-spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

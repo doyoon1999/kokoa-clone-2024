@@ -1,0 +1,23 @@
+.flash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: var(--main-color);
+  animation: flash-screen 0.2s ease-in-out forwards;
+  animation-delay: 2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@keyframes flash-screen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

@@ -4,6 +4,11 @@
   margin-top: 8px;
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s linear;
+}
+.user-components:hover .user-components__name {
+  color: var(--main-color);
+  transform: scale(1.02);
 }
 .user-components__column {
   display: flex;
@@ -29,6 +34,10 @@
   flex-direction: column;
   justify-content: center;
   font-weight: 600;
+}
+.user-components__name {
+  transition: all 0.2s ease-in-out;
+  will-change: transform;
 }
 
 /* chats list */

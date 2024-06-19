@@ -1,6 +1,17 @@
 .chat-message {
   display: flex;
   margin: 10px 0;
+  animation: chat-message-appearance 0.8s;
+}
+@keyframes chat-message-appearance {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .chat-message__username {
   font-size: 17px;
@@ -38,6 +49,17 @@
 .chat-message__reverse {
   display: flex;
   flex-direction: row-reverse;
+  animation: chat-message__reverse-appearance 0.8s;
+}
+@keyframes chat-message__reverse-appearance {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .chat-message__text__reverse {
   background-color: var(--main-color);
