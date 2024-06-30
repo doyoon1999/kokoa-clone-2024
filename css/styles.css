@@ -16,6 +16,7 @@
 @import "components/open-chat-list.css";
 @import "components/settings-chat-item.css";
 @import "components/chat-message.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/index.css";
